@@ -1,0 +1,7 @@
+{
+  "name": "Frolic Kids School - Contact",
+  "description": "Contact Frolic International Kids School at 9788212216 for enquiries and admissions.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

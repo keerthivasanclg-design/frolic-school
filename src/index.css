@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-frolic-yellow: #FFD93D;
+  --color-frolic-blue: #6EB9F7;
+  --color-frolic-pink: #FF8AAE;
+  --color-frolic-green: #9ADE7B;
+  --color-frolic-soft-yellow: #FFF9D0;
+  --color-frolic-soft-blue: #E3F2FD;
+  --color-frolic-soft-pink: #FFE5EC;
+  --color-frolic-soft-green: #F1F8E9;
+  
+  --font-rounded: "Quicksand", "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-rounded text-slate-800 bg-white;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
