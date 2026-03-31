@@ -40,13 +40,13 @@ export const FACILITIES: Facility[] = [
     id: 'smart-class',
     title: '',
     description: 'Interactive learning spaces with modern audio-visual aids.',
-    image: 'src/images/IMG-20260323-WA0008.jpg.jpeg'
+    image: '../images/IMG-20260323-WA0008.jpg.jpeg'
   },
   {
     id: 'indoor-play',
     title: 'Indoor Play Area',
     description: 'Safe and vibrant space for physical activities regardless of weather.',
-    image: 'src/images/IMG-20260323-WA0007.jpg.jpeg'
+    image: '../images/IMG-20260323-WA0007.jpg.jpeg'
   },
   {
     id: 'outdoor-play',
@@ -68,14 +68,14 @@ export const TEAM: TeamMember[] = [
     name: 'Mrs. Sarah Johnson',
     role: 'Principal',
     experience: '15+ Years',
-    image: 'src/peopleicon.png'
+    image: '../images/peopleicon.png'
   },
   {
     id: '2',
     name: 'Ms. Priya Sharma',
     role: 'Senior Teacher',
     experience: '8 Years',
-    image: 'src/peopleicon.png'
+    image: '../images/peopleicon.png'
   },
   {
     id: '3',
@@ -86,30 +86,15 @@ export const TEAM: TeamMember[] = [
   }
 ];
 
-// export const TESTIMONIALS: Testimonial[] = [
-//   {
-//     id: '1',
-//     parentName: 'Ramesh Kumar',
-//     childName: 'Aryan',
-//     content: 'Frolic has been a second home for Aryan. The teachers are so caring and the environment is very safe.',
-//     rating: 5
-//   },
-//   {
-//     id: '2',
-//     parentName: 'Deepa Lakshmi',
-//     childName: 'Kavya',
-//     content: 'I love how they focus on activity-based learning. Kavya has become much more confident and creative.',
-//     rating: 5
-//   }
-// ];
+
 
 export const GALLERY_IMAGES = [
-  { id: 1, src: 'src/images/IMG-20260323-WA0010.jpg.jpeg' },
-  { id: 2, src: 'src/images/IMG-20260323-WA0014.jpg.jpeg' },
-  { id: 3, src: 'src/images/IMG-20260323-WA0016.jpg.jpeg' },
-  { id: 4, src: 'src/images/IMG-20260323-WA0022.jpg.jpeg' },
-  { id: 5, src: 'src/images/IMG-20260323-WA0023.jpg.jpeg' },
-  { id: 6, src: 'src/images/IMG-20260323-WA0019.jpg.jpeg' },
-  { id: 7, src: 'src/images/IMG-20260323-WA0018.jpg.jpeg' },
-  { id: 8, src: 'src/images/IMG-20260323-WA0017.jpg.jpeg' },
+  { id: 1, src: '../images/IMG-20260323-WA0010.jpg.jpeg' },
+  { id: 2, src: '../images/IMG-20260323-WA0014.jpg.jpeg' },
+  { id: 3, src: '../images/IMG-20260323-WA0016.jpg.jpeg' },
+  { id: 4, src: '../images/IMG-20260323-WA0022.jpg.jpeg' },
+  { id: 5, src: '../images/IMG-20260323-WA0023.jpg.jpeg' },
+  { id: 6, src: '../images/IMG-20260323-WA0019.jpg.jpeg' },
+  { id: 7, src: '../images/IMG-20260323-WA0018.jpg.jpeg' },
+  { id: 8, src: '../images/IMG-20260323-WA0017.jpg.jpeg' },
 ];

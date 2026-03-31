@@ -72,7 +72,7 @@ const Hero = () => {
           >
             <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
               <img
-                src="src/images/IMG-20260323-WA0015.jpg.jpeg"
+                src="../images/IMG-20260323-WA0015.jpg.jpeg"
                 alt="Happy children playing"
                 className="w-full h-auto object-cover"
                 referrerPolicy="no-referrer"

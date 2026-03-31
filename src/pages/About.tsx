@@ -48,7 +48,7 @@ export const About = () => {
               className="relative"
             >
               <img
-                src="src/images/IMG-20260323-WA0004.jpg.jpeg"
+                src="../images/IMG-20260323-WA0004.jpg.jpeg"
                 alt="School activities"
                 className="rounded-[2rem] shadow-xl"
                 referrerPolicy="no-referrer"
